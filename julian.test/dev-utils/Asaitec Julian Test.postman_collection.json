@@ -1,0 +1,83 @@
+{
+	"id": "d4af2201-bad5-a230-5d52-7cf1d892c9b8",
+	"name": "Asaitec Julian Test",
+	"description": "",
+	"order": [
+		"5c13651d-bd0c-38bd-e9bc-dc1e94ffb3d4",
+		"311a3edb-b6bf-dcb5-42e2-0a7caca6833c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1644053796579,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "311a3edb-b6bf-dcb5-42e2-0a7caca6833c",
+			"headers": "",
+			"headerData": [],
+			"url": "{{local-host}}/upload-transactions",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "file.txt",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644068963137,
+			"name": "Calculate Order Cost",
+			"description": "",
+			"collectionId": "d4af2201-bad5-a230-5d52-7cf1d892c9b8",
+			"responses": []
+		},
+		{
+			"id": "5c13651d-bd0c-38bd-e9bc-dc1e94ffb3d4",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{local-host}}/upload-products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "file.txt",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644066036836,
+			"name": "Upload Products",
+			"description": "",
+			"collectionId": "d4af2201-bad5-a230-5d52-7cf1d892c9b8",
+			"responses": []
+		}
+	]
+}
