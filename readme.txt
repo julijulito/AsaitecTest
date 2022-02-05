@@ -1,4 +1,4 @@
-I have implemented a Spring boot application
+I have implemented a Spring boot application. The jar file can be found on \AsaitecTest\julian.test\out
 
 To execute the application you only need to import to your IDE to import a Maven project and just execute the application
 
